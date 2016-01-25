@@ -7,29 +7,29 @@
 			'server'        	=> 'meetonsnap.com',
 			'port'          	=> '5222',
 			'adminuser'      	=> 'admin',
-			'adminpasswd'       	=> 'tigasemeetonsnap',
+			'adminpasswd'       	=> '__?__',
 			'resource'      	=> 'xmpphp',
 			'domain'        	=> 'meetonsnap.com',
-			'userpasswd'		=> 'asdasdasd@34'
+			'userpasswd'		=> '__?__'
 		),
 
 		'snapdb' => array(
 			'dbserver'		=> 'localhost',
-			'dbusername'		=> 'root',
-			'dbpassword'		=> 'qwerasdf',
+			'dbusername'		=> '__?__',
+			'dbpassword'		=> '__?__',
 			'dbname'		=> 'snaprtc'
 		),
 
 		'tigasedb' => array(
 			'dbserver'		=> 'localhost',
-			'dbusername'		=> 'tigase',
-			'dbpassword'		=> 'tigase12',
+			'dbusername'		=> '__?__',
+			'dbpassword'		=> '__?__',
 			'dbname'		=> 'tigasedb'
 		),		
 
 		'TWILLIO' => array(
-			'sid' 				=> "AC580e4ca0e6be39ebde7a997c7e4fe664",
-			'token'				=> "d17b54544d2c61895808ae855d5e0555"
+			'sid' 				=> "__?__",
+			'token'				=> "__?__"
 		),
 
 		'templateDir'			=> '../views/templates/',
@@ -38,9 +38,9 @@
 
 		'EMAIL'	=> array(
 
-			'ADMINEMAILADDRESS'		=> 'meetonsnap@gmail.com',
+			'ADMINEMAILADDRESS'		=> '__?__',
 
-			'CCEMAILADDRESS'		=> 'lubanasachin70@gmail.com',
+			'CCEMAILADDRESS'		=> '__?__',
 
 			
 			'resetpassword'		=> array(
@@ -58,10 +58,7 @@
 										'subject' => 'MOS:: Feedback received',
 									),
 
-			//'apikey'			=> '68e86d9d12144224f354017e896bdf2b',
-			//'apikey'			=> '78b33cd401e6116c028bac7720aef53d',
-			//'apikey'			=> 'dc9f57dcfcf37fa4a24c7095d948e8e9',
-			'apikey'			=> '9eebd38acf017e15bd2fe4998741bdea',
+			'apikey'			=> '__?__',
 			'apiurl'			=> 'https://api.falconide.com/falconapi/web.send.rest',
 			'emailfrom'			=> 'snapfriends@meetonsnap.com',
 			'fromname'			=> 'MeetOnSnap',
